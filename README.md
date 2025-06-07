@@ -569,7 +569,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ### Primary Developer
 **Darachhat**
 - 🏥 **Organization:** Darachhat Hospital
-- 📧 **Email:** darachhat@example.com
+- 📧 **Email:** darachhat012@gmail.com
 - 🌐 **System URL:** [http://143.198.81.64](http://143.198.81.64)
 - 📅 **Development Period:** June 2025
 
