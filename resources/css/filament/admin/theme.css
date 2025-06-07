@@ -1,0 +1,76 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@config 'tailwind.config.js';
+
+/* Apply Noto Sans Khmer globally */
+:root {
+    --font-family: 'Noto Sans Khmer', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Override Filament's default font */
+.fi-body,
+.fi-main,
+.fi-sidebar,
+.fi-topbar,
+body {
+    font-family: 'Noto Sans Khmer', ui-sans-serif, system-ui, sans-serif !important;
+}
+
+/* Specific Khmer text styling */
+.khmer-text,
+.fi-ta-text,
+.fi-fo-field-wrp,
+.fi-input,
+.fi-select-input,
+.fi-textarea,
+.fi-btn,
+.fi-badge,
+.fi-ta-header-cell,
+.fi-ta-cell,
+.fi-fo-label,
+.fi-fi-label {
+    font-family: 'Noto Sans Khmer', sans-serif !important;
+    font-feature-settings: 'kern' 1;
+    text-rendering: optimizeLegibility;
+}
+
+/* Enhance Khmer text readability */
+.khmer-text {
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+}
+
+/* Form elements specific styling */
+.fi-fo-text-input input,
+.fi-fo-textarea textarea,
+.fi-fo-select select {
+    font-family: 'Noto Sans Khmer', sans-serif !important;
+}
+
+/* Table styling for better Khmer display */
+.fi-ta-table {
+    font-family: 'Noto Sans Khmer', sans-serif !important;
+}
+
+/* Navigation styling */
+.fi-sidebar-nav {
+    font-family: 'Noto Sans Khmer', sans-serif !important;
+}
+
+/* Modal and notification styling */
+.fi-modal,
+.fi-notification {
+    font-family: 'Noto Sans Khmer', sans-serif !important;
+}
+
+/* Custom button styling with better Khmer support */
+.fi-btn {
+    font-weight: 500;
+    letter-spacing: 0.025em;
+}
+
+/* Enhanced readability for Khmer numbers and text */
+.fi-ta-cell-numeric {
+    font-variant-numeric: tabular-nums;
+}
