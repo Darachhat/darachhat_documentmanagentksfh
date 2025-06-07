@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](http://143.198.81.64)
 
-A comprehensive document management system built specifically for **ksf Hospital** to manage patient records, medical documents, and administrative files efficiently with full Khmer language support.
+A comprehensive document management system built specifically for **Khmer Soviet Friendship Hospital** to administrative files efficiently with full Khmer language support.
 
 ## ✨ Features
 
