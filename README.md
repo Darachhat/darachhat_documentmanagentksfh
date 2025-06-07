@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](http://143.198.81.64)
 
-A comprehensive document management system built specifically for **Darachhat Hospital** to manage patient records, medical documents, and administrative files efficiently with full Khmer language support.
+A comprehensive document management system built specifically for **ksf Hospital** to manage patient records, medical documents, and administrative files efficiently with full Khmer language support.
 
 ## ✨ Features
 
@@ -41,8 +41,8 @@ A comprehensive document management system built specifically for **Darachhat Ho
 **Admin Panel:** [http://143.198.81.64/admin](http://143.198.81.64/admin)
 
 **Demo Credentials:**
-- **Email:** `darachhat@example.com`
-- **Password:** `password123`
+- **Email:** `user@example.com`
+- **Password:** `12345678`
 
 ## 📋 System Requirements
 
@@ -171,50 +171,6 @@ UPLOAD_MAX_FILESIZE=50M
 POST_MAX_SIZE=50M
 ```
 
-### Nginx Configuration
-```nginx
-server {
-    listen 80;
-    server_name your-domain.com;
-    root /var/www/darachhat-documentary-system/public;
-    index index.php index.html;
-
-    # File upload size limit
-    client_max_body_size 100M;
-    client_body_timeout 60s;
-    client_header_timeout 60s;
-
-    # Main location
-    location / {
-        try_files $uri $uri/ /index.php?$query_string;
-    }
-
-    # PHP processing
-    location ~ \.php$ {
-        fastcgi_split_path_info ^(.+\.php)(/.+)$;
-        fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;
-        fastcgi_index index.php;
-        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
-        include fastcgi_params;
-        
-        fastcgi_connect_timeout 60s;
-        fastcgi_send_timeout 60s;
-        fastcgi_read_timeout 60s;
-    }
-
-    # Static assets
-    location ~* \.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ {
-        expires 1y;
-        add_header Cache-Control "public, immutable";
-        add_header Access-Control-Allow-Origin "*";
-    }
-
-    # Security headers
-    add_header X-Frame-Options "SAMEORIGIN" always;
-    add_header X-Content-Type-Options "nosniff" always;
-    add_header X-XSS-Protection "1; mode=block" always;
-}
-```
 
 ## 📁 Project Structure
 
@@ -571,6 +527,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - 🏥 **Organization:** Darachhat Hospital
 - 📧 **Email:** darachhat012@gmail.com
 - 🌐 **System URL:** [http://143.198.81.64](http://143.198.81.64)
+- 📧 **Telegram:** 069382165
 - 📅 **Development Period:** June 2025
 
 ### Built With
@@ -586,7 +543,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🏥 About Darachhat Hospital
 
-This Documentary Management System was specifically developed for **Darachhat Hospital** to:
+This Documentary Management System was specifically developed for **KSF Hospital** to:
 
 - 📋 **Streamline** medical record management
 - 🔒 **Ensure** patient data security and privacy
