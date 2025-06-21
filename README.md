@@ -226,8 +226,6 @@ darachhat-documentary-system/
 ```php
 // User roles and permissions
 'admin'    => 'Full system access and management',
-'doctor'   => 'Medical document access and creation',
-'nurse'    => 'Patient document viewing and updating', 
 'staff'    => 'Limited administrative document access'
 ```
 
