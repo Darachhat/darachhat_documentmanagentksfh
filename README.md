@@ -36,9 +36,9 @@ A comprehensive document management system built specifically for **Khmer Soviet
 
 ## 🌐 Live Demo
 
-**🔗 Live System:** [http://143.198.81.64](http://143.198.81.64)
+**🔗 Live System:** [[http://139.59.247.254](http://139.59.247.254)]
 
-**Admin Panel:** [http://143.198.81.64/admin](http://143.198.81.64/admin)
+**Admin Panel:** [[http://139.59.247.254/admin](http://139.59.247.254/admin)]
 
 **Demo Credentials:**
 - **Admin**
@@ -527,9 +527,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### Primary Developer
 **Darachhat**
-- 🏥 **Organization:** Darachhat Hospital
+- 🏥 **Organization:** Darachhat Developer
 - 📧 **Email:** darachhat012@gmail.com
-- 🌐 **System URL:** [http://143.198.81.64](http://143.198.81.64)
+- 🌐 **System URL:**[[http://139.59.247.254](http://139.59.247.254)]
 - 📧 **Telegram:** 069382165
 - 📅 **Development Period:** June 2025
 
@@ -599,7 +599,7 @@ The system addresses real-world challenges in healthcare documentation and has b
 - 🟢 **Feature Requests:** Within 1 week
 
 ### System Status
-- 🌐 **Live Status:** [http://143.198.81.64](http://143.198.81.64)
+- 🌐 **Live Status:**[[http://139.59.247.254](http://139.59.247.254)]
 - 📊 **Monitoring:** Available 24/7
 - 🔄 **Updates:** Announced via GitHub releases
 
