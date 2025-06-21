@@ -41,8 +41,13 @@ A comprehensive document management system built specifically for **Khmer Soviet
 **Admin Panel:** [http://143.198.81.64/admin](http://143.198.81.64/admin)
 
 **Demo Credentials:**
-- **Email:** `user@example.com`
+- **Admin**
+- **Email:** `admin@system.com`
 - **Password:** `12345678`
+
+-  **Staff**
+- **Email:** `staff@system.com`
+- **Password:** `password`
 
 ## 📋 System Requirements
 
