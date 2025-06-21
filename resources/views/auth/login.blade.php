@@ -143,7 +143,7 @@
                 <!-- Welcome Message -->
                 <div class="text-center py-2">
                     <h2 class="text-lg font-semibold text-gray-800 khmer-text">
-                        សូមស្វាគមន៍ Darachhat!
+                        សូមស្វាគមន៍
                     </h2>
                     <p class="text-sm text-gray-600 khmer-text mt-1">
                         សូមបញ្ចូលព័ត៌មានរបស់អ្នកដើម្បីចូលប្រើប្រាស់
@@ -288,7 +288,7 @@
                                 ព័ត៌មានសម្រាប់ទេស្ត៍
                             </p>
                             <div class="text-xs text-blue-700 space-y-1 khmer-text">
-                                <p><strong>អ៊ីមែល:</strong> user@example.com</p>
+                                <p><strong>អ៊ីមែល:</strong> admin@system.com</p>
                                 <p><strong>លេខសំងាត់:</strong> 12345678</p>
                             </div>
                         </div>
